@@ -1,4 +1,3 @@
-import socket
 import argparse
 from flask import Flask
 
