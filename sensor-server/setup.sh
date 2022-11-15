@@ -1,4 +1,3 @@
-pip3 install flask
-pip install waitress
+./components/setup.sh
 
 pip3 install -r ./requirements.txt
