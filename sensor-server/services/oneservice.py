@@ -16,7 +16,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--host", type=str, required=False, default="localhost", help="Host")
     parser.add_argument("--port", type=int, required=False, default=9101, help="Port")
-    parser.add_argument("--env", type=str,  required=False, qchoices=["dev","prod"], default="dev", help="Environment")
+    parser.add_argument("--env", type=str,  required=False, choices=["dev","prod"], default="dev", help="Environment")
     args = parser.parse_args()
 
     host = args.host
